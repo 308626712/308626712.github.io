@@ -1,184 +1,387 @@
 <!DOCTYPE html>
-<html>
-<head><meta name="generator" content="Hexo 3.8.0">
-  <meta charset="utf-8">
-  
-
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="default">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-</html>
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
+  <head>
+    <title>Brandon.chen 个人博客</title>
+    <meta name="description" content="" />
+    <meta name="author" content="templatemo">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/templatemo_misc.css">
+   	<link type="text/css" rel="stylesheet" href="css/easy-responsive-tabs.css" />
+    <link href="css/templatemo_style.css" rel="stylesheet"> 
+        
+	<script src="js/jquery-1.10.2.min.js"></script> 
+	<script src="js/jquery.lightbox.js"></script>
+	<script src="js/templatemo_custom.js"></script>
+    <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>  
+     <script>
+    function showhide()
+    {
+        var div = document.getElementById("newpost");
+		if (div.style.display !== "none") 
+		{
+			div.style.display = "none";
+		}
+		else 
+		{
+			div.style.display = "block";
+		}
+    }
+  </script>
+  </head>
+  <body>
+    	<!-- logo start -->
+    <div class="logocontainer">
+    	<div class="row">
+        	<h1><a href="#">Brandon</a></h1>
+            <div class="clear"></div>
+            <div class="templatemo_smalltitle">努力才有收获</div>
+       </div>
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
+    <!-- logo end -->    
+   <div id="menu-container" class="main_menu">
+   <!-- homepage start -->
+    <div class="content homepage" id="menu-1">
+  	<div class="container">
+          	<div class="col-md-3 col-sm-6 templatemo_leftgap">
+            	<div class="templatemo_mainservice templatemo_botgap">
+                	<div class="templatemo_link"><a class="show-3 templatemo_page3" href="#">相册</a></div>   
+                </div>
+                <div class="templatemo_mainimg"><img src="images/templatemo_home1.jpg" alt="home img 01"></div>
+            </div>
+            <div class="col-md-3 col-sm-6 templatemo_leftgap">
+            	<div class="templatemo_mainimg templatemo_botgap templatemo_portfotopgap"><img src="images/templatemo_home2.jpg" alt="home img 02"></div>
+                <div class="templatemo_mainportfolio">
+                      <div class="templatemo_link"><a class="show-2 templatemo_page2" href="#">音乐</a></div>         
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 templatemo_leftgap">
+            	<div class="templatemo_maintesti templatemo_botgap templatemo_topgap">
+                	<div class="templatemo_link"><a class="show-4 templatemo_page4" href="#">视频</a></div>
+                </div>
+                <div class="templatemo_mainimg"><img src="images/templatemo_home3.jpg" alt="home img 03"></div>
+            </div>
+            <div class="col-md-3 col-sm-6 templatemo_leftgap">
+            	<div class="templatemo_mainimg templatemo_botgap templatemo_topgap">
+             	   <img src="images/templatemo_home4.jpg" alt="home img 04">
+                </div>
+                <div class="templatemo_mainabout templatemo_botgap">
+                	<div class="templatemo_link"><a class="show-5 templatemo_page5" href="#">关于</a></div>
+                </div>
+                <div class="templatemo_maincontact">
+                	<div class="templatemo_link"><a class="show-6 templatemo_page6" href="#">联系</a></div>
+                </div>
+            </div>
     </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/01/05/hello-world/" class="article-date">
-  <time datetime="2019-01-05T09:16:36.672Z" itemprop="datePublished">2019-01-05</time>
-</a>
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/01/05/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
+   </div>
+    <!-- homepage end -->
+    <!-- 相册 start -->
+    <div class="portfolio" id="menu-3" style="display: none;" >
+    	<div class="container">
+          	<div class="col-md-3 col-sm-6 templatemo_leftgap">
+       	      <div class="templatemo_insideportfolio templatemo_botgap">
+               	  <div class="templatemo_portfoliotext">
+                	<h2>相册</h2>
+                    <div class="clear"></div>生活的美好源于你记录的点点滴滴</div>
+              </div>
+            	<div class="templatemo_portfolioback">
+                	<div class="templatemo_link"><a class="show-1 templatemo_homeportfolio" href="#">返回</a></div>
+                </div>
+                
+            </div>
+            <div class="col-md-3 col-sm-6 templatemo_leftgap">
+                        <div class="templatemo_botgap templatemo_portfotopgap gallery-item">
+							<img src="images/portfolio/templatemo_portfolio01.jpg" alt="gallery 1">
+							<div class="overlay">
+								<a href="images/portfolio/templatemo_portfolio01.jpg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
+							</div>
+						</div>				
+                <div class="templatemo_botgap templatemo_topgap gallery-item">
+             	   <img src="images/portfolio/templatemo_portfolio02.jpg" alt="gallery 2">
+                   <div class="overlay">
+								<a href="images/portfolio/templatemo_portfolio02.jpg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
+							</div>
+                </div>
+                <div class="templatemo_botgap templatemo_topgap gallery-item">
+             	   <img src="images/portfolio/templatemo_portfolio03.jpg" alt="gallery 3">
+                   <div class="overlay">
+								<a href="images/portfolio/templatemo_portfolio03.jpg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
+							</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 templatemo_leftgap">
+				<div class="templatemo_botgap templatemo_topgap gallery-item">
+             	  	 <img src="images/portfolio/templatemo_portfolio04.jpg" alt="gallery 4">
+                     <div class="overlay">
+								<a href="images/portfolio/templatemo_portfolio04.jpg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
+							</div>
+                </div>
+                <div class="templatemo_botgap templatemo_topgap gallery-item">
+             	   <img src="images/portfolio/templatemo_portfolio05.jpg" alt="gallery 5">
+                   <div class="overlay">
+								<a href="images/portfolio/templatemo_portfolio05.jpg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
+							</div>
+                </div>
+                <div class="templatemo_botgap templatemo_topgap gallery-item">
+             	   <img src="images/portfolio/templatemo_portfolio06.jpg" alt="gallery 6">
+                   <div class="overlay">
+								<a href="images/portfolio/templatemo_portfolio06.jpg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
+							</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 templatemo_leftgap">
+				<div class="templatemo_botgap templatemo_topgap gallery-item">
+             	  	 <img src="images/portfolio/templatemo_portfolio07.jpg" alt="gallery 7">
+                     <div class="overlay">
+								<a href="images/portfolio/templatemo_portfolio07.jpg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
+							</div>
+                </div>
+                <div class="templatemo_botgap templatemo_topgap gallery-item">
+             	   <img src="images/portfolio/templatemo_portfolio08.jpg" alt="gallery 8">
+                   <div class="overlay">
+								<a href="images/portfolio/templatemo_portfolio08.jpg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
+							</div>
+                </div>
+                <div class="templatemo_botgap templatemo_topgap gallery-item">
+             	   <img src="images/portfolio/templatemo_portfolio09.jpg" alt="gallery 9">
+                   <div class="overlay">
+								<a href="images/portfolio/templatemo_portfolio09.jpg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
+							</div>
+                </div>
+            </div>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/01/05/hello-world/" data-id="cjqj9h1mj00000cr7bx47k1r4" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">January 2019</a></li></ul>
     </div>
-  </div>
+	 <!-- 相册 end -->
+    <!--services start -->
+   <div class="content services" id="menu-2">
+		<div class="container">
+        	<div class="row templatemo_bordergapborder">
+            	<div class="col-md-3 col-sm-12 templatemo_leftgap">
+                	<div class="templatemo_mainimg templatemo_botgap"><img src="images/templatemo_service1.jpg" alt="service image"></div>
+                    <div class="templatemo_mainservice templatemo_botgap">
+                	<div class="templatemo_linkservice"><a class="show-1 templatemo_homeservice" href="#">返回</a></div>
+                </div>
+                </div>
+                
+                <div class="templatemo_col37 col-sm-12 templatemo_leftgap">
+                	<div class="templatemo_graybg">
+                    <div class="templatemo_frame">
+                	<h2>Our Services</h2>
+                    <div class="clear"></div>
+                    <p><a href="#">Matrix HTML5 template</a> is new metro style <a href="#">website template</a> for you and it is available for free download. Credit goes to <a rel="nofollow" href="#">Unsplash</a> for all images used in this template. Praesent ut vehicula lorem. Nulla nec tellus id ligula egestas luctus fringilla vel dui. Nulla quis quam eget purus aliquam molestie. Nunc ligula magna, viverra eu eros vitae, aliquam tempor nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br><br>
+					Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse eget laoreet nunc. Suspendisse condimentum metus neque, at adipiscing metus venenatis eu. Mauris sit amet erat laoreet, ullamcorper justo sit amet, vehicula purus. Nulla sagittis pulvinar erat, sit amet venenatis lacus fringilla vitae.<br><br>
+					Integer sit amet libero sed dui pretium tempor. Nam neque erat, euismod ut pulvinar in, bibendum eget mi. Phasellus porttitor purus sit amet condimentum mattis. Nulla non venenatis mauris.</p>
+                    </div>
+               	  </div>
+              </div>
+                <div class="templatemo_col37 col-sm-12 templatemo_leftgap templatemo_topgap">
+                	<div class="templatemo_mainimg templatemo_botgap"><img src="images/templatemo_service2.jpg" alt="service image"></div>
+                </div>
+            </div>
+        </div>
+     </div>
+	    
+    <!-- services end -->	
+     <div class="copyrights">Collect from </div>
+	<!-- testimonial start -->
+    <div class="content testimonial" id="menu-4">
+    		    	<div class="container">
+        	<div class="row templatemo_bordergapborder">
+            <!--vertical Tabs-->
+      		<div id="cmt">
+            <div class="col-md-3 col-sm-12 templatemo_leftgap_about">
+            <ul class="resp-tabs-list templatemo_testitab">
+                <li>Testimonials</li>
+                <li>Special Awards</li>
+                <li>Recognitions</li>
+            </ul>
+            <div class="templatemo_aboutlinkwrapper">
+     		<div class="templatemo_link"><a class="show-1 templatemo_hometestimonial" href="index.html">返回</a></div>
+            </div>
+            </div>
+            <div class="resp-tabs-container templatemo_testicontainer">
+                <div>
+                	<div class="templatemo_col50 templatemo_rightgap_about">
+                    	<div class="templatemo_graybg templatemo_botgap">
+                         <div class="templatemo_frame">
+                    	<h2>Testimonials</h2>
+                    	<p>Aliquam accumsan, mauris ut hendrerit vehicula, elit massa facilisis nulla, ut auctor risus massa non elit. Vestibulum commodo, mauris quis accumsan pretium, mauris erat porttitor nibh, a eleifend ante elit eu velit. Sed molestie fringilla tellus ut venenatis. Nam ut eros augue. Nullam scelerisque enim eget ornare rutrum. Proin dignissim eget arcu a posuere. Sed ut lacinia enim, et adipiscing purus.<br><br>
+						Etiam vitae elit euismod dui <a href="#">elementum</a> dapibus sed eleifend purus. Maecenas eleifend arcu arcu, vitae interdum erat sollicitudin vel. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="templatemo_col50 templatemo_leftgap templatemo_botgap"><img src="images/templatemo_testimonial1.jpg" alt="testimonial image"></div>
+                </div>
+                <div>
+                	<div class="templatemo_col50 templatemo_rightgap_about">
+                    	<div class="templatemo_graybg templatemo_botgap">
+                        <div class="templatemo_frame">
+                    	<h2>Special Awards</h2>
+                    	<p>Suspendisse eu nisl sit amet purus varius pellentesque quis id mi. Ut ac sodales massa. Suspendisse placerat malesuada ligula, et bibendum justo convallis in. Duis imperdiet nibh non sodales porttitor. Donec <a href="#">pellentesque</a> mollis ante, a bibendum turpis congue at. Maecenas ligula augue, pellentesque ac porttitor eu, facilisis at nisl.<br><br>
+                        Duis nulla leo, posuere sit amet nibh nec, lacinia ullamcorper turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam aliquam facilisis metus, eget semper nisi mollis blandit. Vestibulum metus neque, vestibulum nec tempus vitae, viverra sit amet odio.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="templatemo_col50 templatemo_leftgap templatemo_botgap"><img src="images/templatemo_testimonial2.jpg" alt="testimonial image"></div>
+                </div>
+                <div>
+                	<div class="templatemo_col50 templatemo_rightgap_about">
+                    	<div class="templatemo_graybg templatemo_botgap">
+                        <div class="templatemo_frame">
+                    	<h2>Recognitions</h2>
+                    	<p>Quisque convallis neque eu nunc dictum, eget vehicula ipsum rhoncus. Fusce a egestas mauris, dapibus fermentum ligula. Donec ac scelerisque sem. Morbi mollis augue non nunc tincidunt, sit amet volutpat nisi commodo. <a href="#">Suspendisse</a> justo nisl, fringilla vehicula augue ut, mattis mattis lacus.<br><br>
+                        Maecenas at urna non dolor sagittis suscipit. Nulla lacinia orci eu felis cursus ultricies. Vestibulum non leo feugiat, posuere mi sit amet, tristique nulla. Suspendisse dui est, sagittis ac pulvinar vel, venenatis ac nisi. Maecenas ac purus viverra, tincidunt dui at, rutrum lorem.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="templatemo_col50 templatemo_leftgap templatemo_botgap"><img src="images/templatemo_testimonial3.jpg" alt="testimonial image"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 templatemo_leftgap templatemo_aboutlinkwrapper1">
+                	<div class="templatemo_aboutback templatemo_botgap">
+                	<div class="templatemo_link"><a class="show-1 templatemo_hometestimonial" href="#">返回</a></div>
+                </div>
+                </div>
+    </div>
+            </div>
 
+    </div>
+	 <!-- testimonial end -->
+     <!-- about start -->
+    <div class="content about" id="menu-5">
+    	<div class="container">
+        	<div class="row templatemo_bordergapborder">
+            <!--vertical Tabs-->
+      		<div id="ab">
+            <div class="col-md-3 col-sm-12 templatemo_leftgap_about">
+            <ul class="resp-tabs-list templatemo_tab">
+                <li>个人简介</li>
+            </ul>
+            <div class="templatemo_aboutlinkwrapper">
+     		<div class="templatemo_link"><a class="show-1 templatemo_homeabout" href="#">返回</a></div>
+            </div>
+            </div>
+            <div class="resp-tabs-container templatemo_aboutcontainer">
+                <div>
+                	<div class="templatemo_col50 templatemo_rightgap_about">
+                    	<div class="templatemo_graybg templatemo_botgap">
+                         <div class="templatemo_frame">
+                    	<h2>Our</h2>
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non, volutpat vel tortor. Integer laoreet placerat suscipit. Sed sodales scelerisque commodo. Nam porta cursus lectus. Proin nunc erat, gravida a facilisis quis, ornare id lectus. Proin consectetur nibh quis urna gravida mollis.<br><br>
+                        Quisque vitae malesuada risus. Quisque at consequat erat. Cras sed fermentum ipsum. Maecenas aliquet commodo dui vel dapibus. Cras quis mi non nisl posuere vestibulum vitae id ipsum. Pellentesque mollis sem non facilisis aliquam. Curabitur eu fermentum odio.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="templatemo_col50 templatemo_leftgap templatemo_botgap"><img src="images/templatemo_about.jpg" alt="about image"></div>
+                </div>
+            </div>
+        </div>
+			<div class="col-sm-12 templatemo_leftgap templatemo_aboutlinkwrapper1">
+                	<div class="templatemo_aboutback templatemo_botgap">
+                	<div class="templatemo_link"><a class="show-1 templatemo_homeabout" href="#">返回</a></div>
+                </div>
+                </div>
+    </div>
+            </div>
+    </div>
+    <!-- about end -->
+    <!-- contact start -->
+    <div class="content contact" id="menu-6">
+    	<div class="container">
+        	<div class="row templatemo_bordergapborder">
+            	<div class="col-md-3 col-sm-12 templatemo_leftgap">
+                	<div class="templatemo_mainimg templatemo_botgap"><img src="images/templatemo_contact1.jpg" alt="contact image"></div>
+                    <div class="templatemo_maincontact templatemo_botgap">
+                	<div class="templatemo_linkcontact"><a class="show-1 templatemo_homecontact" href="#">返回</a></div>
+                </div>
+                </div>
+                
+                <div class="templatemo_col37 col-sm-12 templatemo_leftgap">
+                	<div class="templatemo_graybg templatemo_paddinggap">
+                	<h2>联系我</h2>
+                    <div class="clear"></div>
+                    	<form role="form">
+                          <div class="templatemo_form">
+                            <input name="fullname" type="text" class="form-control" id="fullname" placeholder="Your Name" maxlength="40">
+                          </div>
+                          <div class="templatemo_form">
+                            <input name="email" type="text" class="form-control" id="email" placeholder="Your Email" maxlength="40">
+                          </div>
+                           <div class="templatemo_form">
+                            <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject" maxlength="60">
+                          </div>
+                          <div class="templatemo_form">
+                              <textarea name="message" class="form-control" id="message" placeholder="Your Message..."></textarea>
+                          </div>
+                          <div class="templatemo_form"><button type="button" class="btn btn-primary">发送</button></div>
+            			</form>
+               	  </div>
+              </div>
+                <div class="templatemo_col37 col-sm-12 templatemo_leftgap templatemo_topgap">
+                	<div class="templatemo_graybg templatemo_paddinggap">
+                    	<h2>我的位置</h2>
+                        <div class="clear"></div>
+                        <div class="templatemo_contactmap">
+		    					<div id="templatemo_map"></div>                        
+        		        </div>
+                        <div class="templatemo_address">
+                         	24-66 Nam auctor elementum dolor 10220<br>
+                       	    Tel: 010-020-0340 Email: info@company.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  
+    </div>
+        <!-- contact end --> 
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2019/01/05/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
     </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2019 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
     
+    	<!-- logo start -->
+    <div class="logocontainer">
+    	<div class="row">
+            <div class="templatemo_footer">Copyright © 2084 Company Name - <a href="/">brandon.chen</a> Collect from </div>
+       </div>
+    </div>
+    <!-- logo end -->  
+   <script type="text/javascript">
+    $(document).ready(function () {
+        $('#horizontalTab').easyResponsiveTabs({
+            type: 'default', //Types: default, vertical, accordion
+            width: 'auto', //auto or any width like 600px
+            fit: true, // 100% fit in a container
+            closed: 'accordion', // Start closed if in accordion view
+            activate: function(event) { // Callback function if tab is switched
+                var $tab = $(this);
+                var $info = $('#tabInfo');
+                var $name = $('span', $info);
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+                $name.text($tab.text());
 
+                $info.show();
+				
+            }
+        });
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+        $('#ab').easyResponsiveTabs({
+            type: 'vertical',
+            width: 'auto',
+            fit: true,
+        });
+		
 
+		$('#cmt').easyResponsiveTabs({
+            type: 'vertical',
+            width: 'auto',
+            fit: true,
+        });
+    });
+</script>
 
-<script src="/js/script.js"></script>
-
-
-
-  </div>
-</body>
+  </body>
 </html>
